@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1676ed"/><stop offset="1" stop-color="#1944a5"/>
+    </linearGradient>
+    <linearGradient id="nucleo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7fe7ff"/><stop offset="1" stop-color="#3ea0ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#bg)"/>
+  <!-- casa -->
+  <path d="M52 124 L128 56 L204 124 V196 a10 10 0 0 1 -10 10 H62 a10 10 0 0 1 -10 -10 Z"
+        fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- núcleo (core) -->
+  <circle cx="128" cy="148" r="30" fill="none" stroke="url(#nucleo)" stroke-width="8" opacity=".55"/>
+  <circle cx="128" cy="148" r="17" fill="url(#nucleo)"/>
+  <path d="M120 148 l6 6 l12 -13" fill="none" stroke="#0b2a66" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- pontos de sensor -->
+</svg>
